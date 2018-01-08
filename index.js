@@ -43,6 +43,7 @@ bot.on("ready", function () {
     console.log("Hazır!");
     botcalistir();
     mevlanasozleri();
+    bot.user.setGame('Komutlar için /yardım');
 });
 
 bot.on("guildMemberAdd", function (member) {
